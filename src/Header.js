@@ -2,7 +2,7 @@ import { slide as Menu } from 'react-burger-menu'
 import { ReactComponent as IconBtnHamburger } from './img/btn-hamburger.svg'
 import './Header.sass'
 
-const Header = () => {
+const Header = (props) => {
     const showSettings = (event) => {
         window.alert('Showing setting')
     }
